@@ -4,9 +4,9 @@ Implemented in Python.
 
 ##Pseudocode##
 
-**ALGORITHM**   BFS(maze[0… n-1, 0… m-1], start, end)
-	<p>**Input:** A 2D array maze[0… n-1, 0… m-1] of characters and the starting/ending coordinates in that maze.</p>
-	<p>**Output**: Shortest path from start to end</p>
+**ALGORITHM**   *BFS(maze[0… n-1, 0… m-1], start, end)*
+<br>&nbsp;&nbsp;&nbsp;&nbsp;**Input:** A 2D array maze[0… n-1, 0… m-1] of characters and the starting/ending coordinates in that maze.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;**Output**: Shortest path from start to end
 ```
 initialize a queue Q with start
 initialize a set V tracking visited spaces
