@@ -1,6 +1,6 @@
 #Breadth-First Maze Navigation Algorithm
 
-Implemented in Python.
+Implemented in Python 3.3
 
 ##Pseudocode##
 
