@@ -18,12 +18,12 @@ initialize a set V tracking visited spaces
   	if last == end
       return path
    	else if last is not in V
-    	for all spaces adjacent to last but not in V do
+      for all spaces adjacent to last but not in V do
         newPath = array(path)
         newPath.append(adjacentSpace)
         add newPath to the queue
 
-    	V.add(last)
+      V.add(last)
   return null
 ```
 1.	Input Size: n, m
