@@ -28,6 +28,3 @@ initialize a set V tracking visited spaces
 1.	Input Size: n, m
 2.	Basic operation: add newPath to the queue
 3.	Efficiency Class: O(nm)
-
-<p>Worst case, outer while loop covers every available space in the n x m maze ((n-2)(m-2))
-Σ(i = 1, (n-2)(m-2)) 4 = 4(n-2)(m-2) = 4(nm - 2m - 2n + 4) = 4nm - 8m - 8n + 16 nm grows fastest, therefore O(nm)
