@@ -12,19 +12,18 @@ initialize a queue Q with start
 initialize a set V tracking visited spaces
 
   while Q is not empty:
-  	path = Q.pop()
-  	last = last node in path
+    path = Q.pop()
+    last = last node in path
 
-  	if last == end
+    if last == end
       return path
-   	else if last is not in V
+    else if last is not in V
       for all spaces adjacent to last but not in V do
         newPath = array(path)
         newPath.append(adjacentSpace)
         add newPath to the queue
-
       V.add(last)
-  return null
+    return null
 ```
 1.	Input Size: n, m
 2.	Basic operation: add newPath to the queue
