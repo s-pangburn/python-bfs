@@ -1,8 +1,8 @@
-#Breadth-First Maze Navigation Algorithm
+# Breadth-First Maze Navigation Algorithm
 
 Implemented in Python 3.3
 
-##Pseudocode##
+## Pseudocode
 
 **ALGORITHM**   *BFS(maze[0… n-1, 0… m-1], start, end)*
 <br>&nbsp;&nbsp;&nbsp;&nbsp;**Input:** A 2D array maze[0… n-1, 0… m-1] of characters and the starting/ending coordinates in that maze.
